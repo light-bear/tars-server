@@ -298,7 +298,7 @@ class Server
         $this->masterPidFile = $this->tarsServerConfig['datapath'] . '/master.pid';
         $this->managerPidFile = $this->tarsServerConfig['datapath'] . '/manager.pid';
 
-        require_once $this->tarsServerConfig['entrance'];
+        #require_once $this->tarsServerConfig['entrance'];
 
         $this->sw->start();
     }
