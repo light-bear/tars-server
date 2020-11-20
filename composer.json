@@ -28,7 +28,7 @@
         "phptars/tars-report": "~0.1",
         "phptars/tars-config": "~0.1",
         "phptars/tars-monitor": "~0.2",
-        "monolog/monolog": "^1.23"
+        "monolog/monolog": "^2.0"
     },
     "autoload": {
         "psr-4": {
